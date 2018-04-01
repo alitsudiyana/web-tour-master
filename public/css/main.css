@@ -1,0 +1,247 @@
+*{
+    left: 0;
+    right: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: #fff;
+}
+
+.navbar{
+	width: 100%;
+	background:#fff;
+    z-index: 1;
+    position: fixed;
+}
+.ul-navbar{
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 500px;
+	padding: 0;
+}
+/*.ul-navbar{
+    padding-left: 420px;
+}*/
+.ul-navbar > li {
+	list-style: none;
+	display: inline-block;
+	padding: 18px;
+}
+
+.ul-navbar > li a{
+	color: rgb(58, 15, 138);
+	text-decoration: none;
+	list-style-type: none;
+}
+.ul-navbar > li a:hover{
+	text-decoration: none;
+}
+.toggle{
+	width: 100%;
+	padding: 5px 10px;
+	background: #fff;
+	text-align: right;
+	box-sizing: border-box;
+	color: rgb(69, 11, 102);
+	font-size: 30px;
+	display: none;
+}
+
+.logo-brand{
+    position: absolute;
+    width: 200px;
+    top: 15px;
+    left: 54px;
+}
+
+.booking-now{
+    position:absolute;
+    bottom: 50%;
+}
+
+/*card*/
+.row-card{ 
+	padding-bottom: 20px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	text-align: center;
+  }
+
+.card-booking{
+	position: relative;
+	bottom: 95px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 0;
+	padding-right: 15px;
+    /* right: 20px; */
+    /* background-color: black;
+    color: white; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+/*end of card*/
+
+.tabs-booking{
+	color: rgb(69, 11, 102);
+	list-style: none;
+	padding-right: 75%;
+}
+
+/*Promo menu utama*/
+.promo{
+	width: 100%;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+.promo-title{
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.promo-text{
+	color: #FF0000;
+}
+.promo-content{
+	padding-top: 20px;
+}
+/*End of promo*/
+
+.booking-us{
+	width: 100%;
+	background-color: rgb(253, 253, 247);
+	height: 340px;
+	margin-bottom: 30px;
+}
+
+.tittle-fasilitas{
+	padding-top: 35px;
+	color: rgb(58, 15, 138);
+	font-size: 28px;
+	text-align: center;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.easy-booking{
+	padding-top: 50px;
+	margin-bottom: 60px;
+	color: rgb(58, 15, 138);
+	padding-left: 45px;
+	padding-right: 5px;
+	/* padding-bottom: 10px; */
+}
+
+.logobook2{
+	text-align: center;
+}
+.logobook3{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.logobook{
+	font-size: 80px;
+	padding-left: 97px;
+	padding-bottom: 20px;
+}
+
+.subscribe{
+	width: 100%;
+	height: 300px;
+	background-color: #1dc0cf;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	color: azure;
+}
+.logo-subsribe{
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+}
+
+/*detail paket*/
+.jumbotron{
+	margin-bottom: 0px !important;
+}
+
+.tujuan-tour{
+	height: 100%;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #22A7F0;
+	color: #fff;
+	/*text-align: center;*/
+}
+
+.fasilitas-tour{
+	height: 100%;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F5D76E;
+}
+
+.itinerary{
+	height: 100%;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/*end of detail paket*/
+
+/*carousel card*/
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-4 {
+        float: left;
+    } 
+}
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+}
+
+.controls-top{
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*end of carousel card*/
+
+ /*resnponsive*/   
+ @media(max-width: 800px ){
+	.toggle{
+		display: block;
+	}
+
+	ul{
+		width: 100%;
+		display: none;
+		margin: auto;
+	}
+	ul li{
+		display: block;
+		text-align: center;
+	}
+    .active{
+		display: block;
+    }
+    .logo-brand{
+		display: block;
+	}
+	.py-4{
+		display: block;
+	}
+	.sampul{
+		display: block;
+	}
+	.footer-basic-centered{
+		display: block;
+	}
+}
